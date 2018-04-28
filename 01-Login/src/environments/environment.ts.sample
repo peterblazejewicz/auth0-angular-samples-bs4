@@ -5,8 +5,8 @@
 
 export const environment = {
   production: false,
-  clientID: 'hKUrWI3itOT0lvI8oXA1HtVK3zZA3snd',
-  domain: 'blazejewicz.eu.auth0.com',
+  clientID: '{CLIENT_ID}',
+  domain: '{DOMAIN}',
   callbackURL: 'http://localhost:3000/callback',
 };
 

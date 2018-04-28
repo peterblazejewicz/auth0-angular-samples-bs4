@@ -1,0 +1,6 @@
+export const environment = {
+  production: true,
+  clientID: '{CLIENT_ID}',
+  domain: '{DOMAIN}',
+  callbackURL: 'http://localhost:3000/callback',
+};
