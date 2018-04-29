@@ -6,8 +6,16 @@
     </li>
   </ul>
   <form class="form-inline">
-    <button *ngIf="auth.isAuthenticated" class="btn btn-outline-primary" id="qsLoginBtn" type="button">Log In</button>
-    <button *ngIf="!auth.isAuthenticated" class="btn btn-outline-primary" id="qsLogoutBtn" type="button">Log Out</button>
+    <button *ngIf="auth.isAuthenticated"
+      class="btn btn-outline-primary"
+      id="qsLoginBtn"
+      (click)="auth.logout()"
+      type="button">Log Out</button>
+    <button *ngIf="!auth.isAuthenticated"
+      class="btn btn-outline-primary"
+      id="qsLogoutBtn"
+      type="button"
+      (click)="auth.login()">Log In</button>
   </form>
 </nav>
 
