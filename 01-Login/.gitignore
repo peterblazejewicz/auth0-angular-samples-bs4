@@ -42,3 +42,6 @@ Thumbs.db
 environment.*.ts
 environment.*
 !environment.*.sample
+
+# package lock
+package-lock.json
