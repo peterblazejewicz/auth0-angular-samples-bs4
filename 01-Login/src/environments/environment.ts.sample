@@ -7,7 +7,7 @@ export const environment = {
   production: false,
   clientID: '{CLIENT_ID}',
   domain: '{DOMAIN}',
-  callbackURL: 'http://localhost:3000/callback',
+  callbackURL: 'http://localhost:4200/callback',
 };
 
 /*
